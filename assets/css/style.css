@@ -153,3 +153,41 @@ body {
   padding: 30px;
   font-size: 0.9rem;
 }
+
+/* ===== AJUSTES MOBILE ===== */
+@media (max-width: 768px) {
+
+  .hero {
+    padding-bottom: 40px;
+  }
+
+  .hero-content {
+    margin-top: 40px;
+  }
+
+  .hero-content h1 {
+    font-size: 1.9rem;
+    line-height: 1.2;
+  }
+
+  .hero-content p {
+    font-size: 0.95rem;
+  }
+
+  .cta {
+    padding: 12px 22px;
+    font-size: 0.95rem;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
